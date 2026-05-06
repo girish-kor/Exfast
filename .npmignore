@@ -1,0 +1,58 @@
+# .npmignore
+
+# Development files
+tests/
+.github/
+.gitignore
+.eslintrc
+eslint.config.js
+.env.example
+example.js
+CONTRIBUTING.md
+CODE_OF_CONDUCT.md
+PROJECT_STRUCTURE.md
+
+# Documentation (optional, include in some cases)
+# README.md
+# LICENSE
+
+# CI/CD
+.gitlab-ci.yml
+.travis.yml
+Jenkinsfile
+
+# Testing
+coverage/
+.nyc_output/
+.mocha_output
+*.lcov
+
+# Development dependencies (should be in .gitignore too)
+node_modules/
+.npm/
+.cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Source maps (if compiled)
+*.map

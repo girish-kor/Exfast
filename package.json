@@ -1,0 +1,84 @@
+{
+  "name": "exfast",
+  "version": "1.0.0",
+  "description": "Express.js framework with built-in dependency injection, modular architecture, security, validation, and observability",
+  "license": "MIT",
+  "author": {
+    "name": "ExFast Contributors",
+    "email": "support@exfast.io"
+  },
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./core": "./src/core/index.js",
+    "./middleware": "./src/middleware/index.js",
+    "./validation": "./src/validation/index.js",
+    "./security": "./src/security/index.js"
+  },
+  "files": [
+    "src",
+    "LICENSE",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/exfast/flow.git",
+    "directory": "."
+  },
+  "homepage": "https://github.com/exfast/flow",
+  "bugs": {
+    "url": "https://github.com/exfast/flow/issues",
+    "email": "support@exfast.io"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "framework",
+    "flow",
+    "dependency-injection",
+    "modular",
+    "security",
+    "validation",
+    "logging",
+    "observability"
+  ],
+  "scripts": {
+    "test": "node --test tests/unit/*.js",
+    "test:cov": "c8 npm test",
+    "lint": "eslint src tests --max-warnings 0",
+    "lint:fix": "eslint src tests --fix",
+    "format": "prettier --write src tests",
+    "format:check": "prettier --check src tests",
+    "prepublishOnly": "npm run lint && npm test",
+    "prepare": "npm run lint"
+  },
+  "dependencies": {
+    "ajv": "^8.20.0",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.5.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "pino": "^10.3.1",
+    "pino-http": "^11.0.0",
+    "uuid": "^14.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "c8": "^11.0.0",
+    "eslint": "^10.3.0",
+    "prettier": "^3.8.3",
+    "supertest": "^7.2.2"
+  },
+  "peerDependencies": {
+    "express": "^4.18.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
