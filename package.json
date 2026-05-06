@@ -4,8 +4,8 @@
   "description": "Express.js framework with built-in dependency injection, modular architecture, security, validation, and observability",
   "license": "MIT",
   "author": {
-    "name": "ExFast Contributors",
-    "email": "support@exfast.io"
+    "name": "GIRISH KOR",
+    "email": "girishkor05@gmail.com"
   },
   "type": "module",
   "main": "src/index.js",
@@ -23,13 +23,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/exfast/flow.git",
+    "url": "https://github.com/girish-kor/Exfast.git",
     "directory": "."
   },
-  "homepage": "https://github.com/exfast/flow",
+  "homepage": "https://github.com/girish-kor/Exfast",
   "bugs": {
-    "url": "https://github.com/exfast/flow/issues",
-    "email": "support@exfast.io"
+    "url": "https://github.com/girish-kor/Exfast/issues",
+    "email": "girishkor05@gmail.com"
   },
   "engines": {
     "node": ">=18.0.0",

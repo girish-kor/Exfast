@@ -484,9 +484,9 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 For issues, questions, or suggestions:
 
-- GitHub Issues: [github.com/exfast/flow/issues](https://github.com/exfast/flow/issues)
-- Email: [support@exfast.io](mailto:support@exfast.io)
-- Homepage: [github.com/exfast/flow](https://github.com/exfast/flow)
+- GitHub Issues: [github.com/exfast/flow/issues](https://github.com/girish-kor/Exfast/issues)
+- Email: [girishkor05@gmail.com](mailto:girishkor05@gmail.com)
+- Homepage: [github.com/exfast/flow](https://github.com/girish-kor/Exfast)
 
 ## Changelog
 
